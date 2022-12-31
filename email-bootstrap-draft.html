@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CCS External Stylesheet -->    
+        <link href= "email-bootstrap-draft.css" rel="stylesheet">
+    <!-- Google Fonts Sheets-->   
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>Bootstrap Grid</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row w-100">
+          <!-- First Column -->    
+            <div class="col-sm-12 col-md-4 col-lg-2">
+                <center>
+                 <div class="hello">Hello Rebecca</div> 
+                 <img src="https://drive.google.com/uc?export=view&id=1pNKe1WNVj8W49M0QxJzZIj0YYum0qN01" alt="dog" class="icon" style="margin-bottom: 10px;"> 
+                <p><button type="button" class="btn btn-outline-primary">COMPOSE</button></p>  
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center active">
+                          Inbox
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Important
+                          <span class="badge bg-primary rounded-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Starred
+                          <span class="badge bg-primary rounded-pill"></span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Drafts
+                            <span class="badge bg-primary rounded-pill">5</span>
+                          </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Templates
+                        <span class="badge bg-primary rounded-pill"></span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Sent
+                            <span class="badge bg-primary rounded-pill"></span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Outbox
+                            <span class="badge bg-primary rounded-pill"></span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Spam
+                            <span class="badge bg-primary rounded-pill">17</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                           Trash
+                            <span class="badge bg-primary rounded-pill"></span>
+                          </li>
+                      </ul>
+                    </center>
+
+            </div>
+            <!-- Second Column-->
+            <div class="col-sm-12 col-md-8 col-lg-4">
+                <p class="inbox">Inbox</p>
+               <div><form id="form"> 
+                <input type="search" id="query" name="q" placeholder="Search...">
+                <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
+                    <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+                    <path d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"/>
+                  </svg></button>
+              </form></div>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Email Bootstrap Homework</h5>
+                        <small>Today 8:00AM</small>
+                      </div>
+                      <p class="mb-1">
+                       John Doe</p>
+                      <small>Can't wait to meet in our study groups..</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Login UI Project</h5>
+                        <small class="text-muted">Yesterday</small>
+                      </div>
+                      <p class="mb-1">Jane Doe</p>
+                      <small class="text-muted">How did you add a google font into the login homework? I want to insert a google font to...</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Tech Interview Workshop</h5>
+                        <small class="text-muted">12/31/2022</small>
+                      </div>
+                      <p class="mb-1">Bay Valley Tech</p>
+                      <small class="text-muted">Attend our Bay Valley Tech Tech Interview Workshop on 1/15/2023! Food will be provided. Please RSVP now!</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Resume Workshop</h5>
+                          <small class="text-muted">12/31/2022</small>
+                        </div>
+                        <p class="mb-1">Bay Valley Tech</p>
+                        <small class="text-muted">Attend our Bay Valley Tech Resume Workshop on 1/15/2023! Food will be provided. Please RSVP now!</small>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Dietary Restrictions for Workshop Dinner</h5>
+                          <small class="text-muted">12/31/2022</small>
+                        </div>
+                        <p class="mb-1">Bay Valley Tech</p>
+                        <small class="text-muted">If you are attending our Bay Valley Tech Workshops for Tech Interviews and/or Resume Workshop on 1/15/2023, please RSVP now and provide your dietary restrictions in the form!</small>
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Resume Workshop</h5>
+                          <small class="text-muted">12/31/2022</small>
+                        </div>
+                        <p class="mb-1">Bay Valley Tech</p>
+                        <small class="text-muted">Attend our Bay Valley Tech Resume Workshop on 1/15/2023! Food will be provided. Please RSVP now!</small>
+                      </a>
+                  </div>
+            </div>
+            <!-- Third Column -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                    <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+                  </svg>
+                <p style="text-align: right;">Today at 8:00 AM</p>
+                <p class="email" style="font-size:30px"><strong>Email Bootstrap Homework</p></strong>
+                <p class="email">John Doe</p>
+                <p class="email">Can't wait to meet in our study groups, so we can exchange ideas on our email bootstrap project homework assignment. I created my wireframes and I am look for codes from bootstrap to add into Visual Code. Can you send me an attachment of your draft, so I can pre-read it before the study group? Thank you!</p>
+                <span class="placeholder col-12 placeholder-xs"></span>
+                <p style="text-align: left;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply" viewBox="0 0 16 16">
+                <path d="M6.598 5.013a.144.144 0 0 1 .202.134V6.3a.5.5 0 0 0 .5.5c.667 0 2.013.005 3.3.822.984.624 1.99 1.76 2.595 3.876-1.02-.983-2.185-1.516-3.205-1.799a8.74 8.74 0 0 0-1.921-.306 7.404 7.404 0 0 0-.798.008h-.013l-.005.001h-.001L7.3 9.9l-.05-.498a.5.5 0 0 0-.45.498v1.153c0 .108-.11.176-.202.134L2.614 8.254a.503.503 0 0 0-.042-.028.147.147 0 0 1 0-.252.499.499 0 0 0 .042-.028l3.984-2.933zM7.8 10.386c.068 0 .143.003.223.006.434.02 1.034.086 1.7.271 1.326.368 2.896 1.202 3.94 3.08a.5.5 0 0 0 .933-.305c-.464-3.71-1.886-5.662-3.46-6.66-1.245-.79-2.527-.942-3.336-.971v-.66a1.144 1.144 0 0 0-1.767-.96l-3.994 2.94a1.147 1.147 0 0 0 0 1.946l3.994 2.94a1.144 1.144 0 0 0 1.767-.96v-.667z"/>
+                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply-all" viewBox="0 0 16 16">
+                    <path d="M8.098 5.013a.144.144 0 0 1 .202.134V6.3a.5.5 0 0 0 .5.5c.667 0 2.013.005 3.3.822.984.624 1.99 1.76 2.595 3.876-1.02-.983-2.185-1.516-3.205-1.799a8.74 8.74 0 0 0-1.921-.306 7.404 7.404 0 0 0-.798.008h-.013l-.005.001h-.001L8.8 9.9l-.05-.498a.5.5 0 0 0-.45.498v1.153c0 .108-.11.176-.202.134L4.114 8.254a.502.502 0 0 0-.042-.028.147.147 0 0 1 0-.252.497.497 0 0 0 .042-.028l3.984-2.933zM9.3 10.386c.068 0 .143.003.223.006.434.02 1.034.086 1.7.271 1.326.368 2.896 1.202 3.94 3.08a.5.5 0 0 0 .933-.305c-.464-3.71-1.886-5.662-3.46-6.66-1.245-.79-2.527-.942-3.336-.971v-.66a1.144 1.144 0 0 0-1.767-.96l-3.994 2.94a1.147 1.147 0 0 0 0 1.946l3.994 2.94a1.144 1.144 0 0 0 1.767-.96v-.667z"/>
+                    <path d="M5.232 4.293a.5.5 0 0 0-.7-.106L.54 7.127a1.147 1.147 0 0 0 0 1.946l3.994 2.94a.5.5 0 1 0 .593-.805L1.114 8.254a.503.503 0 0 0-.042-.028.147.147 0 0 1 0-.252.5.5 0 0 0 .042-.028l4.012-2.954a.5.5 0 0 0 .106-.699z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eraser" viewBox="0 0 16 16">
+                    <path d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828l6.879-6.879zm2.121.707a1 1 0 0 0-1.414 0L4.16 7.547l5.293 5.293 4.633-4.633a1 1 0 0 0 0-1.414l-3.879-3.879zM8.746 13.547 3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293l.16-.16z"/>
+                  </svg>
+                <div class="form-floating mb-1">
+                    <input type="To email" class="form-control" id="floatingTO" placeholder="name@example.com">
+                    <label for="floatingTO">TO:</label>
+                  </div>
+                  <div class="form-floating mb-1">
+                    <input type="CC email" class="form-control" id="floatingCC" placeholder="name@example.com">
+                    <label for="floatingCC">CC:</label>
+                  </div>
+                  <div class="form-floating mb-1">
+                    <input type="BCC email" class="form-control" id="floatingBCC" placeholder="name@example.com">
+                    <label for="floatingBCC">BCC:</label>
+                  </div>
+                  <div class="form-floating mb-1">
+                    <input type="Subject" class="form-control" id="floatingSubject" placeholder="INPUT">
+                    <label for="floatingSubject">SUBJECT:</label>
+                  </div>
+                  <div class="input-group mb-1">
+                    <textarea class="form-control" aria-label="With textarea" rows="20"></textarea>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+                    <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-save" viewBox="0 0 16 16">
+                    <path d="M2 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9.5a1 1 0 0 0-1 1v7.293l2.646-2.647a.5.5 0 0 1 .708.708l-3.5 3.5a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L7.5 9.293V2a2 2 0 0 1 2-2H14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h2.5a.5.5 0 0 1 0 1H2z"/>
+                  </svg>
+                  <p style="text-align: right;"><button type="button" class="btn btn-outline-primary">SEND</button></p>
+                </div>
+        </div>
+    </div>
+
+  <!-- Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
